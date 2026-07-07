@@ -46,8 +46,8 @@ export const CtaBannerSection = ({
         <div className="mt-8 flex flex-wrap gap-3 justify-center">
           <Button
             to="/contact"
+            variant="white"
             size="lg"
-            className="bg-white text-brand-800 hover:bg-brand-50 hover:text-brand-900"
           >
             {buttonLabel}
             <ArrowRight size={18} />
@@ -55,9 +55,8 @@ export const CtaBannerSection = ({
           <Button
             href={buildWhatsAppUrl(WA_DEFAULT_MESSAGE)}
             external
-            variant="outline"
+            variant="outline-white"
             size="lg"
-            className="border-white/40 text-white hover:bg-white/10 hover:border-white"
           >
             <MessageCircle size={18} />
             Chat on WhatsApp

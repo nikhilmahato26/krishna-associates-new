@@ -60,9 +60,8 @@ export const HeroSection = () => {
                     <Button
                       href={buildWhatsAppUrl(WA_DEFAULT_MESSAGE)}
                       external
-                      variant="outline"
+                      variant="outline-white"
                       size="lg"
-                      className="bg-white/10 backdrop-blur border-white/30 text-white hover:bg-white hover:text-brand-700"
                     >
                       Chat on WhatsApp
                     </Button>

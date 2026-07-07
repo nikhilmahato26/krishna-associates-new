@@ -157,8 +157,8 @@ export const ServiceDetailPage = () => {
                   <Button
                     href={waUrl}
                     external
+                    variant="white"
                     fullWidth
-                    className="bg-white text-brand-800 hover:bg-brand-50"
                   >
                     <MessageCircle size={16} />
                     Contact Us

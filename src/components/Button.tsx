@@ -2,7 +2,7 @@ import type { ButtonHTMLAttributes, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { cn } from '@/utils/cn';
 
-type Variant = 'primary' | 'secondary' | 'ghost' | 'outline';
+type Variant = 'primary' | 'secondary' | 'ghost' | 'outline' | 'white' | 'outline-white';
 type Size = 'sm' | 'md' | 'lg';
 
 interface BaseProps {
@@ -48,6 +48,10 @@ const variantStyles: Record<Variant, string> = {
     'border border-ink-200 text-ink-800 hover:border-brand-500 hover:text-brand-700 bg-white',
   ghost:
     'text-ink-700 hover:text-brand-700 hover:bg-brand-50',
+  white:
+    'bg-white text-brand-700 hover:bg-brand-50 hover:text-brand-800 shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-lift)]',
+  'outline-white':
+    'border border-white/30 text-white hover:bg-white hover:text-brand-700 bg-white/10 backdrop-blur-[2px]',
 };
 
 const sizeStyles: Record<Size, string> = {
