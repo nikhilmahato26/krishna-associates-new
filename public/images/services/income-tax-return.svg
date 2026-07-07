@@ -1,0 +1,21 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" fill="#EFFCFA"/>
+  <circle cx="1000" cy="600" r="260" fill="#3EB7A7" opacity="0.18"/>
+  <circle cx="150" cy="130" r="170" fill="#ACE9E1" opacity="0.5"/>
+  <g transform="translate(430,110)">
+    <rect x="0" y="0" width="280" height="380" rx="14" fill="#ffffff" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="30" y="36" width="150" height="16" rx="8" fill="#0E3D37"/>
+    <rect x="30" y="70" width="220" height="10" rx="5" fill="#E2E8F0"/>
+    <rect x="30" y="90" width="220" height="10" rx="5" fill="#E2E8F0"/>
+    <rect x="30" y="130" width="100" height="34" rx="6" fill="#F1F5F9"/>
+    <rect x="150" y="130" width="100" height="34" rx="6" fill="#F1F5F9"/>
+    <rect x="30" y="180" width="220" height="10" rx="5" fill="#E2E8F0"/>
+    <rect x="30" y="200" width="180" height="10" rx="5" fill="#E2E8F0"/>
+    <rect x="30" y="250" width="220" height="60" rx="8" fill="#EFFCFA"/>
+    <text x="45" y="288" font-family="Arial" font-size="22" font-weight="700" fill="#147A6D">Refund: ₹●●●●</text>
+  </g>
+  <g transform="translate(220,480)">
+    <path d="M0 60 L30 20 L60 45 L100 0" fill="none" stroke="#F59E42" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M84 0 L100 0 L100 16" fill="none" stroke="#F59E42" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

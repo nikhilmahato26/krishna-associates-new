@@ -1,0 +1,40 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="teamBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFFCFA"/>
+      <stop offset="100%" stop-color="#D5F5F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#teamBg)"/>
+  <circle cx="1200" cy="150" r="260" fill="#3EB7A7" opacity="0.15"/>
+  <circle cx="120" cy="780" r="220" fill="#1E9A8A" opacity="0.12"/>
+
+  <!-- Desk / meeting scene, abstract -->
+  <rect x="200" y="600" width="1000" height="24" rx="12" fill="#0E3D37" opacity="0.15"/>
+
+  <!-- Laptop -->
+  <g transform="translate(560,440)">
+    <rect x="0" y="0" width="280" height="180" rx="10" fill="#0E3D37"/>
+    <rect x="14" y="14" width="252" height="152" rx="4" fill="#EFFCFA"/>
+    <rect x="34" y="34" width="120" height="10" rx="5" fill="#3EB7A7"/>
+    <rect x="34" y="54" width="200" height="8" rx="4" fill="#CBD5E1"/>
+    <rect x="34" y="70" width="200" height="8" rx="4" fill="#CBD5E1"/>
+    <rect x="34" y="100" width="90" height="50" rx="6" fill="#ACE9E1"/>
+    <rect x="132" y="100" width="90" height="50" rx="6" fill="#74D4C7"/>
+    <rect x="-20" y="180" width="320" height="16" rx="8" fill="#1E293B"/>
+  </g>
+
+  <!-- People silhouettes (abstract, non-identifiable) -->
+  <g transform="translate(300,300)" fill="#147A6D" opacity="0.85">
+    <circle cx="0" cy="0" r="46"/>
+    <path d="M-70 220 C-70 130 -35 100 0 100 C35 100 70 130 70 220 Z"/>
+  </g>
+  <g transform="translate(950,280)" fill="#1E9A8A" opacity="0.85">
+    <circle cx="0" cy="0" r="46"/>
+    <path d="M-70 220 C-70 130 -35 100 0 100 C35 100 70 130 70 220 Z"/>
+  </g>
+  <g transform="translate(700,240)" fill="#3EB7A7" opacity="0.85">
+    <circle cx="0" cy="0" r="52"/>
+    <path d="M-78 240 C-78 140 -38 108 0 108 C38 108 78 140 78 240 Z"/>
+  </g>
+</svg>

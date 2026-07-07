@@ -1,0 +1,19 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" fill="#F8FAFC"/>
+  <circle cx="1050" cy="150" r="220" fill="#ACE9E1" opacity="0.45"/>
+  <circle cx="130" cy="640" r="180" fill="#1E9A8A" opacity="0.15"/>
+  <g transform="translate(420,160)">
+    <rect x="0" y="0" width="260" height="340" rx="14" fill="#ffffff" stroke="#CBD5E1" stroke-width="2"/>
+    <circle cx="130" cy="70" r="34" fill="#ACE9E1"/>
+    <rect x="90" y="120" width="80" height="10" rx="5" fill="#0E3D37"/>
+    <rect x="60" y="150" width="140" height="8" rx="4" fill="#E2E8F0"/>
+    <rect x="40" y="190" width="180" height="1.5" fill="#E2E8F0"/>
+    <rect x="40" y="212" width="180" height="10" rx="5" fill="#E2E8F0"/>
+    <rect x="40" y="234" width="140" height="10" rx="5" fill="#E2E8F0"/>
+    <rect x="40" y="270" width="180" height="40" rx="8" fill="#EFFCFA"/>
+  </g>
+  <g transform="translate(680,440)">
+    <rect x="0" y="0" width="60" height="60" rx="10" fill="#F59E42"/>
+    <text x="14" y="40" font-family="Arial" font-size="26" font-weight="700" fill="white">₹</text>
+  </g>
+</svg>
