@@ -23,8 +23,8 @@ export const CONTACT = {
   address: '118, First Floor, Star Platinum Complex, Near Madhuram Gate, Junagadh - 362001',
   city: 'Junagadh',
 
-  // Google Maps embed URL: replace with the actual embed URL once address is confirmed
-  mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.5!2d72.87!3d19.07!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0!2sKrishna+Associates!5e0!3m2!1sen!2sin!4v1700000000000',
+  // Google Maps embed URL
+  mapEmbedUrl: 'https://maps.google.com?q=star%20platinum%20complex,%20Madhuram,%20Kamnath%20Nagar%20Society,%20Moti%20Palace%20Twp,%20Junagadh,%20Gujarat%20362015&ftid=0x3957ff60eaf998bb:0xd17fe6f645e7a00f&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,100809208,94218641,94282134,100813464,94286869,100822499&g_st=iw&output=embed',
 } as const;
 
 export const HOURS = {
