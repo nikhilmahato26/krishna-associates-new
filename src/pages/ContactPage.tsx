@@ -24,15 +24,18 @@ export const ContactPage = () => {
             variants={staggerContainer}
             className="max-w-3xl mb-12"
           >
-            <motion.p variants={fadeUp} className="eyebrow mb-4">
-              Contact Us
-            </motion.p>
             <motion.h1
               variants={fadeUp}
               className="text-4xl sm:text-5xl md:text-6xl leading-[1.05] text-balance"
             >
-              Let&rsquo;s talk about what you need.
+              Contact Us
             </motion.h1>
+            <motion.p
+              variants={fadeUp}
+              className="text-lg md:text-xl font-medium text-brand-600 mt-3 text-balance"
+            >
+              Let&rsquo;s talk about what you need.
+            </motion.p>
           </motion.div>
 
           <motion.div

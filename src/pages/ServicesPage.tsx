@@ -24,15 +24,18 @@ export const ServicesPage = () => {
             variants={staggerContainer}
             className="max-w-3xl"
           >
-            <motion.p variants={fadeUp} className="eyebrow mb-4">
-              Our Services
-            </motion.p>
             <motion.h1
               variants={fadeUp}
               className="text-4xl sm:text-5xl md:text-6xl leading-[1.05] text-balance"
             >
-              Four services. One dependable partner.
+              Our Services
             </motion.h1>
+            <motion.p
+              variants={fadeUp}
+              className="text-lg md:text-xl font-medium text-brand-600 mt-3 text-balance"
+            >
+              Four services. One dependable partner.
+            </motion.p>
             <motion.p
               variants={fadeUp}
               className="mt-5 text-lg text-ink-600 leading-relaxed max-w-2xl"

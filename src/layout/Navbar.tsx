@@ -51,7 +51,7 @@ export const Navbar = () => {
           className="flex items-center gap-2 shrink-0 max-lg:mx-auto max-lg:absolute max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:top-1/2 max-lg:-translate-y-1/2"
           aria-label="Krishna Associates | Home"
         >
-          <img src={logoUrl} alt="Krishna Associates" className="h-10 md:h-12 w-auto" />
+          <img src={logoUrl} alt="Krishna Associates" className="h-12 md:h-12 w-auto" />
         </NavLink>
 
         {/* Desktop nav */}

@@ -60,22 +60,19 @@ export const ServiceDetailPage = () => {
               animate="visible"
               variants={staggerContainer}
             >
-              <motion.div
-                variants={fadeUp}
-                className="inline-flex items-center gap-2 rounded-full bg-brand-50 border border-brand-100 px-3 py-1.5 mb-5"
-              >
-                <Icon name={service.icon} size={16} className="text-brand-600" />
-                <span className="text-xs font-semibold uppercase tracking-wider text-brand-700">
-                  {service.title}
-                </span>
-              </motion.div>
-
               <motion.h1
                 variants={fadeUp}
                 className="text-4xl sm:text-5xl md:text-[3.5rem] leading-[1.05] text-balance"
               >
                 {service.title}
               </motion.h1>
+
+              <motion.p
+                variants={fadeUp}
+                className="text-lg md:text-xl font-medium text-brand-600 mt-3 text-balance"
+              >
+                {service.short}
+              </motion.p>
 
               <motion.p
                 variants={fadeUp}

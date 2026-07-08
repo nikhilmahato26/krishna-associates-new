@@ -30,15 +30,18 @@ export const AboutPage = () => {
             variants={staggerContainer}
             className="max-w-3xl"
           >
-            <motion.p variants={fadeUp} className="eyebrow mb-4">
-              {aboutPage.hero.eyebrow}
-            </motion.p>
             <motion.h1
               variants={fadeUp}
               className="text-4xl sm:text-5xl md:text-6xl leading-[1.05] text-balance"
             >
-              {aboutPage.hero.heading}
+              {aboutPage.hero.eyebrow}
             </motion.h1>
+            <motion.p
+              variants={fadeUp}
+              className="text-lg md:text-xl font-medium text-brand-600 mt-3 text-balance"
+            >
+              {aboutPage.hero.heading}
+            </motion.p>
           </motion.div>
         </div>
       </section>

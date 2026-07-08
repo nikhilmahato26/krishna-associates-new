@@ -78,15 +78,26 @@ export const ContactFormSection = () => {
             variants={fadeUp}
             className="lg:col-span-2"
           >
-            <p className="eyebrow mb-4">Get in Touch</p>
-            <h2 className="text-3xl sm:text-4xl md:text-[2.5rem] leading-[1.1] text-balance">
+            <motion.h2
+              variants={fadeUp}
+              className="text-3xl sm:text-4xl md:text-[2.5rem] font-bold leading-[1.1] text-balance text-ink-900"
+            >
+              Get in Touch
+            </motion.h2>
+            <motion.p
+              variants={fadeUp}
+              className="text-lg md:text-xl font-medium text-brand-600 mt-3 text-balance"
+            >
               Tell us what you need, we&rsquo;ll take it from there.
-            </h2>
-            <p className="mt-5 text-lg text-ink-600 leading-relaxed">
+            </motion.p>
+            <motion.p
+              variants={fadeUp}
+              className="mt-5 text-lg text-ink-600 leading-relaxed"
+            >
               Pick the service you&rsquo;re interested in, share a few details, and
               your enquiry lands directly in our WhatsApp. Typical response time:
               under 2 hours during business hours.
-            </p>
+            </motion.p>
 
             <div className="mt-8 space-y-4">
               {[
