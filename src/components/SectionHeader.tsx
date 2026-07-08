@@ -27,12 +27,16 @@ export const SectionHeader = ({
       variants={fadeUp}
       className={cn('max-w-3xl', alignment, className)}
     >
-      {eyebrow && <p className="eyebrow mb-3">{eyebrow}</p>}
-      <h2 className="text-3xl sm:text-4xl md:text-[2.75rem] leading-[1.1] text-balance">
+      <h2 className="text-3xl sm:text-4xl md:text-[2.75rem] font-bold leading-[1.1] text-balance text-ink-900">
         {heading}
       </h2>
+      {eyebrow && (
+        <p className="text-lg md:text-xl font-medium text-brand-600 mt-2 text-balance">
+          {eyebrow}
+        </p>
+      )}
       {subtitle && (
-        <p className="mt-4 text-lg text-ink-600 leading-relaxed text-balance">
+        <p className="mt-3 text-base md:text-lg text-ink-600 leading-relaxed text-balance">
           {subtitle}
         </p>
       )}

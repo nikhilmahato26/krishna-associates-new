@@ -9,21 +9,21 @@ export const heroSlides: HeroSlide[] = [
     eyebrow: 'Trusted Tax & GST Partner',
     title: 'Financial clarity, without the paperwork stress.',
     subtitle:
-      'From GST Registration to ITR filing, Mutual Funds and Insurance — one dependable partner for every financial decision.',
+      'From GST Registration and Income Tax to Mutual Funds and Insurance, one dependable partner for every financial decision.',
     image: '/images/hero/hero-1.svg',
   },
   {
     eyebrow: 'GST Made Simple',
     title: 'GST Registration & Returns, filed right the first time.',
     subtitle:
-      'End-to-end GST support with document verification, GSTIN assistance and ongoing compliance — no missed deadlines, no penalties.',
+      'End-to-end GST support with document verification, GSTIN assistance and ongoing compliance, no missed deadlines, no penalties.',
     image: '/images/hero/hero-2.svg',
   },
   {
     eyebrow: 'Personal Tax',
     title: 'ITR filing that gets you the refund you actually deserve.',
     subtitle:
-      'Accurate tax computation, eligible deductions and refund tracking — for salaried professionals and business owners alike.',
+      'Accurate tax computation, eligible deductions and refund tracking for salaried professionals and business owners alike.',
     image: '/images/hero/hero-3.svg',
   },
 ];
@@ -35,7 +35,7 @@ export const heroSlides: HeroSlide[] = [
 export const aboutHome = {
   eyebrow: 'About Krishna Associates',
   heading: 'Your Trusted Tax & GST Partner',
-  body: 'At Krishna Associates, we specialize in GST Registration, GST Return Filing, Income Tax Return Filing, Mutual Fund and Insurance services. Our focus is to provide accurate, transparent and hassle-free financial solutions with professional guidance, ensuring complete peace of mind for individuals and businesses.',
+  body: 'At Krishna Associates, we specialize in GST Registration, Income Tax, Mutual Fund, and Insurance services. Our focus is to provide accurate, transparent and hassle-free financial solutions with professional guidance, ensuring complete peace of mind for individuals and businesses.',
   checklist: [
     'GST & Income Tax',
     'Mutual Fund & Insurance Solutions',

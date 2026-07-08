@@ -11,7 +11,7 @@ export const ServicesPage = () => {
     <>
       <SEO
         title="Services"
-        description="Explore Krishna Associates' full range of services — GST Registration, GST Return Filing, Income Tax Return, Salary ITR-1, Mutual Fund and Insurance solutions."
+        description="Explore Krishna Associates' full range of services: GST Registration, Income Tax, Mutual Fund, and Insurance solutions."
         path="/services"
       />
 
@@ -31,13 +31,13 @@ export const ServicesPage = () => {
               variants={fadeUp}
               className="text-4xl sm:text-5xl md:text-6xl leading-[1.05] text-balance"
             >
-              Six services. One dependable partner.
+              Four services. One dependable partner.
             </motion.h1>
             <motion.p
               variants={fadeUp}
               className="mt-5 text-lg text-ink-600 leading-relaxed max-w-2xl"
             >
-              From GST paperwork to long-term investment planning — pick the service
+              From GST paperwork to long-term investment planning, pick the service
               you need, and we&rsquo;ll handle the rest end-to-end.
             </motion.p>
           </motion.div>
@@ -52,7 +52,7 @@ export const ServicesPage = () => {
             whileInView="visible"
             viewport={viewportOnce}
             variants={staggerContainer}
-            className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
+            className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4"
           >
             {services.map((service) => (
               <ServiceCard key={service.slug} service={service} />

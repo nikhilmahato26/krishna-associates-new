@@ -17,7 +17,7 @@ export const AboutPage = () => {
     <>
       <SEO
         title="About Us"
-        description="Learn about Krishna Associates — a client-first tax and financial services firm serving individuals and businesses with GST, ITR, Mutual Fund and Insurance solutions."
+        description="Learn about Krishna Associates, a client-first tax and financial services firm serving individuals and businesses with GST, Income Tax, Mutual Fund and Insurance solutions."
         path="/about"
       />
 

@@ -21,12 +21,12 @@ export const aboutPage = {
     {
       title: 'Transparency',
       description:
-        'Upfront pricing, clear timelines, and honest advice — even when it means less work for us.',
+        'Upfront pricing, clear timelines, and honest advice, even when it means less work for us.',
     },
     {
       title: 'Personal Attention',
       description:
-        'Every client gets a dedicated point of contact — not a ticket queue or a chatbot.',
+        'Every client gets a dedicated point of contact, not a ticket queue or a chatbot.',
     },
     {
       title: 'Long-term Trust',

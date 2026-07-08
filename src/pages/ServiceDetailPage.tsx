@@ -1,6 +1,7 @@
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Check, MessageCircle, ArrowRight } from 'lucide-react';
+import { FAQAccordionItem } from '@/components/FAQAccordionItem';
 import { SEO } from '@/components/SEO';
 import { getServiceBySlug, services } from '@/data/services';
 import { pricingPlans } from '@/data/pricing';
@@ -28,6 +29,11 @@ export const ServiceDetailPage = () => {
   const pricing = pricingPlans.find((p) => p.slug === service.slug);
   const relatedServices = services.filter((s) => s.slug !== service.slug).slice(0, 3);
   const waUrl = buildWhatsAppUrl(service.whatsappMessage);
+
+  const faqs = service.faqs || [];
+  const half = Math.ceil(faqs.length / 2);
+  const leftColumn = faqs.slice(0, half);
+  const rightColumn = faqs.slice(half);
 
   return (
     <>
@@ -150,7 +156,7 @@ export const ServiceDetailPage = () => {
                   {pricing.priceLabel.replace(/^Starting From\s*/i, '')}
                 </p>
                 <p className="mt-1 text-sm text-white/70">
-                  Starting price — transparent, no hidden fees
+                  Starting price: transparent, no hidden fees
                 </p>
 
                 <div className="mt-8 space-y-3">
@@ -168,6 +174,36 @@ export const ServiceDetailPage = () => {
                   </p>
                 </div>
               </motion.div>
+            </div>
+          </div>
+        </section>
+      )}
+
+
+      {/* FAQs Accordion Section */}
+      {faqs.length > 0 && (
+        <section className="py-16 md:py-24 bg-white border-t border-ink-100">
+          <div className="container-page max-w-6xl">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-ink-900 leading-[1.1]">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-lg md:text-xl font-medium text-brand-600 mt-2">
+                Common queries about {service.title}
+              </p>
+            </div>
+            
+            <div className="grid gap-4 md:grid-cols-2 items-start">
+              <div className="space-y-4">
+                {leftColumn.map((faq, i) => (
+                  <FAQAccordionItem key={`left-${i}`} question={faq.question} answer={faq.answer} />
+                ))}
+              </div>
+              <div className="space-y-4">
+                {rightColumn.map((faq, i) => (
+                  <FAQAccordionItem key={`right-${i}`} question={faq.question} answer={faq.answer} />
+                ))}
+              </div>
             </div>
           </div>
         </section>
@@ -231,3 +267,4 @@ export const ServiceDetailPage = () => {
     </>
   );
 };
+

@@ -14,9 +14,9 @@ export const PricingSection = () => {
     <section className="py-20 md:py-28 bg-ink-50">
       <div className="container-page">
         <SectionHeader
-          eyebrow="Pricing"
-          heading="Transparent pricing. No hidden fees."
-          subtitle="Straightforward starting prices for our most-requested services. Talk to us for anything custom — we quote upfront."
+          eyebrow="Transparent pricing. No hidden fees."
+          heading="Our Pricing"
+          subtitle="Straightforward starting prices for our most-requested services. Talk to us for anything custom, we quote upfront."
           align="center"
           className="mb-14"
         />

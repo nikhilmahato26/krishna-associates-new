@@ -15,7 +15,7 @@ export const pricingPlans: PricingPlan[] = [
     features: [
       'GST Application Filing',
       'Document Verification',
-      'GSTIN Assistance',
+      'GSTIN Registration',
       'Post Registration Support',
     ],
   },
@@ -24,10 +24,10 @@ export const pricingPlans: PricingPlan[] = [
     title: 'GST Return Filing',
     priceLabel: 'Starting From ₹499 / Return',
     features: [
-      'GSTR Filing',
-      'Compliance Support',
+      'GSTR-1 & GSTR-3B Filing',
       'ITC Reconciliation',
-      'Filing Assistance',
+      'GST Compliance Support',
+      'Late Fee & Notice Assistance',
     ],
   },
   {
@@ -37,8 +37,8 @@ export const pricingPlans: PricingPlan[] = [
     features: [
       'Tax Computation',
       'ITR Filing',
-      'Refund Assistance',
-      'Compliance Support',
+      'Refund Tracking & Support',
+      'Balance Sheet Preparation',
     ],
   },
   {
@@ -47,9 +47,9 @@ export const pricingPlans: PricingPlan[] = [
     priceLabel: 'Starting From ₹299',
     features: [
       'Salary Income',
-      'House Property Income',
-      'Bank Interest Income',
-      'Refund Processing',
+      'Form 16 Processing',
+      'Tax Saving Deductions',
+      'Refund Tracking & Support',
     ],
   },
 ];

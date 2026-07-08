@@ -6,6 +6,11 @@ export type ServiceSlug =
   | 'mutual-fund'
   | 'insurance';
 
+export interface FAQItem {
+  question: string;
+  answer: string;
+}
+
 export interface Service {
   slug: ServiceSlug;
   title: string;
@@ -14,6 +19,7 @@ export interface Service {
   icon: string;  // Lucide icon name
   image: string; // Path to hero image for detail page
   whatsappMessage: string; // Prefilled WA message when user clicks Contact
+  faqs?: FAQItem[];
 }
 
 export interface PricingPlan {

@@ -12,9 +12,9 @@ export const ServicesPreviewSection = () => {
       <div className="container-page">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
           <SectionHeader
-            eyebrow="Our Services"
-            heading="Everything you need — from GST to Insurance."
-            subtitle="Six focused services, delivered by people who actually file returns every day. Pick what you need."
+            eyebrow="Everything you need: from GST to Insurance."
+            heading="Our Services"
+            subtitle="Four focused services, delivered by experts who handle filings every day. Pick what you need."
           />
           <Button to="/services" variant="outline">
             View All Services
@@ -27,7 +27,7 @@ export const ServicesPreviewSection = () => {
           whileInView="visible"
           viewport={viewportOnce}
           variants={staggerContainer}
-          className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
+          className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4"
         >
           {services.map((service) => (
             <ServiceCard key={service.slug} service={service} />

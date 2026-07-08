@@ -80,7 +80,7 @@ export const ContactFormSection = () => {
           >
             <p className="eyebrow mb-4">Get in Touch</p>
             <h2 className="text-3xl sm:text-4xl md:text-[2.5rem] leading-[1.1] text-balance">
-              Tell us what you need — we&rsquo;ll take it from there.
+              Tell us what you need, we&rsquo;ll take it from there.
             </h2>
             <p className="mt-5 text-lg text-ink-600 leading-relaxed">
               Pick the service you&rsquo;re interested in, share a few details, and
@@ -91,7 +91,7 @@ export const ContactFormSection = () => {
             <div className="mt-8 space-y-4">
               {[
                 'No obligation, no follow-up spam',
-                'Talk directly to a filing expert — not a call centre',
+                'Talk directly to a filing expert, not a call centre',
                 'Free consultation on your first enquiry',
               ].map((point) => (
                 <div key={point} className="flex items-start gap-3">

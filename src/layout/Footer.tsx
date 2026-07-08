@@ -24,7 +24,7 @@ export const Footer = () => {
 
           {/* Explore Krishna Associates (Req #7 — was "Company") */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-white/70 mb-5">
+            <h3 className="text-base font-bold uppercase tracking-wider text-white mb-5">
               {footer.navHeading}
             </h3>
             <ul className="space-y-3">
@@ -43,7 +43,7 @@ export const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-white/70 mb-5">
+            <h3 className="text-base font-bold uppercase tracking-wider text-white mb-5">
               Our Services
             </h3>
             <ul className="space-y-3">
@@ -62,7 +62,7 @@ export const Footer = () => {
 
           {/* Contact + Business Hours (Req #8) */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-white/70 mb-5">
+            <h3 className="text-base font-bold uppercase tracking-wider text-white mb-5">
               Contact Us
             </h3>
             <ul className="space-y-3 text-sm text-ink-300">
@@ -89,7 +89,7 @@ export const Footer = () => {
 
             {/* Business Hours (Req #8) */}
             <div className="mt-8">
-              <h4 className="text-sm font-semibold uppercase tracking-wider text-white/70 mb-4 flex items-center gap-2">
+              <h4 className="text-base font-bold uppercase tracking-wider text-white mb-4 flex items-center gap-2">
                 <Clock size={14} />
                 {footer.hoursHeading}
               </h4>
@@ -97,12 +97,6 @@ export const Footer = () => {
                 <div>
                   <p className="text-white font-medium">{HOURS.weekdays.label}</p>
                   <p>{HOURS.weekdays.time}</p>
-                </div>
-                <div className="pt-1">
-                  <p>
-                    <span className="text-white/80">{HOURS.weekend.label}</span> —{' '}
-                    <span className="text-saffron-400">{HOURS.weekend.time}</span>
-                  </p>
                 </div>
               </div>
             </div>

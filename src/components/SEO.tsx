@@ -8,9 +8,9 @@ interface SEOProps {
 }
 
 export const SEO = ({ title, description, path = '' }: SEOProps) => {
-  const fullTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+  const fullTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} | ${SITE.tagline}`;
   const desc = description ??
-    'Expert GST Registration, Income Tax Return Filing, Mutual Fund and Insurance services. Trusted financial partner for individuals and businesses.';
+    'Expert GST Registration, Income Tax, Mutual Fund and Insurance services. Trusted financial partner for individuals and businesses.';
   const url = `${SITE.url}${path}`;
 
   return (

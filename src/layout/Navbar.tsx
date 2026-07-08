@@ -45,8 +45,12 @@ export const Navbar = () => {
           : 'bg-white border-b border-transparent'
       )}
     >
-      <div className="container-page flex h-16 md:h-20 items-center justify-between">
-        <NavLink to="/" className="flex items-center gap-2 shrink-0" aria-label="Krishna Associates — Home">
+      <div className="container-page relative flex h-16 md:h-20 items-center justify-between">
+        <NavLink
+          to="/"
+          className="flex items-center gap-2 shrink-0 max-lg:mx-auto max-lg:absolute max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:top-1/2 max-lg:-translate-y-1/2"
+          aria-label="Krishna Associates | Home"
+        >
           <img src={logoUrl} alt="Krishna Associates" className="h-10 md:h-12 w-auto" />
         </NavLink>
 
@@ -61,8 +65,8 @@ export const Navbar = () => {
                 cn(
                   'px-4 py-2 text-[15px] font-medium rounded-lg transition-colors',
                   isActive
-                    ? 'text-brand-700 bg-brand-50'
-                    : 'text-ink-700 hover:text-brand-700 hover:bg-brand-50/60'
+                     ? 'text-brand-700 bg-brand-50'
+                     : 'text-ink-700 hover:text-brand-700 hover:bg-brand-50/60'
                 )
               }
             >
@@ -87,7 +91,7 @@ export const Navbar = () => {
         {/* Mobile trigger */}
         <button
           type="button"
-          className="lg:hidden flex h-10 w-10 items-center justify-center rounded-lg text-ink-800 hover:bg-ink-100 transition-colors"
+          className="lg:hidden ml-auto flex h-10 w-10 items-center justify-center rounded-lg text-ink-800 hover:bg-ink-100 transition-colors"
           onClick={() => setOpen((s) => !s)}
           aria-label={open ? 'Close menu' : 'Open menu'}
           aria-expanded={open}

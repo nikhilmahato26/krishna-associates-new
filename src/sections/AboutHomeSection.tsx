@@ -22,15 +22,15 @@ export const AboutHomeSection = () => {
             viewport={viewportOnce}
             variants={staggerContainer}
           >
-            <motion.p variants={fadeUp} className="eyebrow mb-4">
-              {aboutHome.eyebrow}
-            </motion.p>
             <motion.h2
               variants={fadeUp}
-              className="text-3xl sm:text-4xl md:text-[2.75rem] leading-[1.1] text-balance"
+              className="text-3xl sm:text-4xl md:text-[2.75rem] font-bold leading-[1.1] text-balance text-ink-900"
             >
-              {aboutHome.heading}
+              {aboutHome.eyebrow}
             </motion.h2>
+            <motion.p variants={fadeUp} className="text-lg md:text-xl font-medium text-brand-600 mt-2">
+              {aboutHome.heading}
+            </motion.p>
             <motion.p
               variants={fadeUp}
               className="mt-5 text-lg text-ink-600 leading-relaxed text-balance"

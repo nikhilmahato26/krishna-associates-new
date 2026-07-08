@@ -53,8 +53,8 @@ export const PricingCard = ({ plan, highlighted }: PricingCardProps) => {
       <p
         className={
           highlighted
-            ? 'mt-3 text-sm text-white/80 uppercase tracking-wide font-medium'
-            : 'mt-3 text-sm text-ink-500 uppercase tracking-wide font-medium'
+            ? 'mt-3 text-lg text-white font-bold tracking-wide'
+            : 'mt-3 text-lg text-brand-700 font-bold tracking-wide'
         }
       >
         {plan.priceLabel.replace(/^Starting From\s*/i, 'Starting From ')}
