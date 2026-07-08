@@ -13,7 +13,7 @@ export const services: Service[] = [
       'Get your business GST-registered quickly with expert documentation support and post-registration guidance.',
     long: 'We handle the full GST registration process, from document verification to GSTIN issuance and ongoing support. Whether you are a startup, a small business, or expanding operations, our team ensures your application is accurate and compliant from day one.',
     icon: 'BookOpenCheck',
-    image: '/images/services/gst-registration.svg',
+    image: '/images/services/gst-registration.png',
     whatsappMessage: 'Hello Krishna Associates, I need GST Registration service.',
   },
   {
@@ -23,7 +23,7 @@ export const services: Service[] = [
       'Accurate tax computation, ITR filing and refund assistance for individuals and businesses.',
     long: 'From salaried professionals to business owners, we compute tax liability, claim eligible deductions, and file returns error-free. We also track refunds and represent you if the IT department raises any queries.',
     icon: 'Receipt',
-    image: '/images/services/income-tax-return.svg',
+    image: '/images/services/income-tax-return.png',
     whatsappMessage: 'Hello Krishna Associates, I need Income Tax Return service.',
     faqs: [
       {
@@ -83,7 +83,7 @@ export const services: Service[] = [
       'Investment guidance for mutual funds: pooled portfolios across equity, debt, and hybrid schemes for long-term returns.',
     long: 'A mutual fund pools money from investors to invest in stocks, bonds, or other assets. We help you choose schemes aligned with your goals, risk profile, and time horizon, with ongoing portfolio reviews.',
     icon: 'LineChart',
-    image: '/images/services/mutual-fund.svg',
+    image: '/images/services/mutual-fund.png',
     whatsappMessage: 'Hello Krishna Associates, I need Mutual Fund advisory service.',
   },
   {
@@ -93,7 +93,7 @@ export const services: Service[] = [
       'Life, health and general insurance policies matched to your family and business needs.',
     long: 'From term life and health cover to general and business insurance, we help you compare options and pick policies that actually protect what matters, without the jargon or the upsell.',
     icon: 'ShieldCheck',
-    image: '/images/services/insurance.svg',
+    image: '/images/services/insurance.png',
     whatsappMessage: 'Hello Krishna Associates, I need Insurance advisory service.',
   },
 ];

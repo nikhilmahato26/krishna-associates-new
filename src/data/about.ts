@@ -9,7 +9,7 @@ export const aboutPage = {
     eyebrow: 'About Krishna Associates',
     heading: 'Your Trusted Tax & Financial Partner',
     body: 'Krishna Associates is committed to helping individuals and businesses manage their tax and financial responsibilities with confidence. From GST Registration and Income Tax Return Filing to Mutual Fund and Insurance solutions, we focus on delivering accurate, transparent and hassle-free services. With a client-first approach and personalized guidance, we strive to make every financial decision simpler, smarter and more secure.',
-    image: '/images/about/team.svg',
+    image: '/images/about/team.png',
   },
 
   values: [

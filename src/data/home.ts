@@ -10,21 +10,21 @@ export const heroSlides: HeroSlide[] = [
     title: 'Financial clarity, without the paperwork stress.',
     subtitle:
       'From GST Registration and Income Tax to Mutual Funds and Insurance, one dependable partner for every financial decision.',
-    image: '/images/hero/hero-1.svg',
+    image: '/images/hero/hero-1.png',
   },
   {
     eyebrow: 'GST Made Simple',
     title: 'GST Registration & Returns, filed right the first time.',
     subtitle:
       'End-to-end GST support with document verification, GSTIN assistance and ongoing compliance, no missed deadlines, no penalties.',
-    image: '/images/hero/hero-2.svg',
+    image: '/images/hero/hero-2.png',
   },
   {
     eyebrow: 'Personal Tax',
     title: 'ITR filing that gets you the refund you actually deserve.',
     subtitle:
       'Accurate tax computation, eligible deductions and refund tracking for salaried professionals and business owners alike.',
-    image: '/images/hero/hero-3.svg',
+    image: '/images/hero/hero-3.png',
   },
 ];
 

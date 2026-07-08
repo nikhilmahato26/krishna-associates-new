@@ -69,7 +69,7 @@ export const AboutHomeSection = () => {
           >
             <div className="relative rounded-2xl overflow-hidden aspect-[4/5] bg-ink-100 shadow-[var(--shadow-lift)]">
               <img
-                src="/images/about/about-home.svg"
+                src="/images/about/about-home.png"
                 alt="Krishna Associates team advising a client"
                 loading="lazy"
                 className="h-full w-full object-cover"
