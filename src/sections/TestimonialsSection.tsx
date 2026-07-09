@@ -14,7 +14,7 @@ export const TestimonialsSection = () => {
     <section className="py-20 md:py-28 bg-ink-50">
       <div className="container-page">
         <SectionHeader
-          eyebrow="What our clients in Gujarat say"
+          eyebrow="What Our Valued Clients Say"
           heading="Client Testimonials"
           align="center"
           className="mb-14"
